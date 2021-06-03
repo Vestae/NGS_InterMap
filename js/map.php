@@ -29,7 +29,7 @@ var map = L.map("map", {
 	crs: L.CRS.Simple,
 	minZoom: 0,
 	maxZoom: 6
-	}).setView([0, 0], 4);
+	}).setView([6144, 6144], 4);
 
 	L.tileLayer('map/{z}-{x}-{y}.jpg',{
 		tms: false
